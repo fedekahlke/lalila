@@ -68,13 +68,21 @@
             <div>
                 <h2 class="titulo-contacto">Dejanos tu consulta</h2>
                 <form class="formulario">
-                    <h3 class="titulo-formulario">Nombre</h3>
-                    <input class="items-formularios" type="text">
-                    <h3 class="titulo-formulario">Email</h3>
-                    <input class="items-formularios" type="email">
-                    <h3 class="titulo-formulario">Consulta</h3>
-                    <textarea class="items-formularios" name="" id="" cols="50" rows="15"></textarea>
-                    <input class="items-formularios" type="submit">
+                    <div class="form-floating mb-3">
+                        <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                      </div>
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Consulta</label>
+                      </div>
+                      <div class="col-12">
+                        <button class="btn btn-primary boton-enviar" type="submit">Enviar</button>
+                      </div>
                 </form>
             </div>
         </div>
