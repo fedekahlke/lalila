@@ -336,47 +336,116 @@ text-align: center;
         }
 
 
-    .galeria-imagenes{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        "img img img img"
-        "img img img img"
-    }
+        .grilla{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+
+            grid-template-areas:
+            "img-b img-b img-f img-c"
+            "img-b img-b img-d img-e"
+            "img-a img-a img-g img-h"
+            "img-a img-a img-i img-j"
+        }
 
 
+        .img-a{
+            background-image:url(./img/img-paisaje2.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-a;
+            border-radius: 5px;
+        }
+
+        .img-b{
+            background-image:url(./img/img-paisaje10.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-b;
+            border-radius: 5px;
+
+        }
+
+        .img-c{
+            background-image:url(./img/img-animal3.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-c;
+            border-radius: 5px;
+
+        }
+
+        .img-d{
+            height: 40vh;
+            background-image:url(./img/img-animal1.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-d;
+            border-radius: 5px;
+
+        }
+
+        .img-e{
+            height: 40vh;
+            background-image:url(./img/img-cabalgata1.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-e;
+            border-radius: 5px;
+
+        }
+
+        .img-f{
+            background-image:url(./img/img-estancia2.jpg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-f;
+            border-radius: 5px;
+
+        }
+
+        .img-g{
+            height: 40vh;
+            background-image:url(./img/img-paisaje1.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-g;
+            border-radius: 5px;
+
+        }
+
+        .img-h{
+            height: 40vh;
+            background-image:url(./img/img-animal2.jpeg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-h;
+            border-radius: 5px;
+
+        }
+
+        .img-i{
+            height: 40vh;
+            background-image:url(./img/img-index5.jpg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-i;
+            border-radius: 5px;
+
+        }
+
+        .img-j{
+            height: 40vh;
+            background-image:url(./img/img-cabalgata3.jpg);
+            background-size: cover;
+            margin: 2px;
+            grid-area: img-j;
+            border-radius: 5px;
+
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER */
 
 
 .footer{
@@ -409,13 +478,37 @@ footer ul li{
     margin: 1rem;
 }
 
-/* .footer-icon{
-    /* border-right: 2px solid rgb(119, 119, 119);
-    border-left: 2px solid rgb(119, 119, 119);
-    padding: 0 5px 0 5px;
-} */
-
 .icon{
     padding: 3px;
 }
 
+
+.navbar-secundaria{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .navegador{
+        display: none;
+    }
+
+    .navbar-secundaria{
+        display:block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .color-nav{
+        background-color: black;
+    }
+
+    .titulo-nav-secundario{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .img-nav{
+        width: 100px;
+    }
+    
+}
