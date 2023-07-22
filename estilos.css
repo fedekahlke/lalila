@@ -527,6 +527,30 @@ footer ul li{
     
 }
 
+@media screen and (max-width:1200px){
+   
+    .card{
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width:700px){
+
+    .imagen-carrousel{
+        height: 400px;
+    }
+    
+    .parrafo-index{
+        width: 85vw;
+    }
+
+    .card{
+        margin: 20px;
+        width: 28rem;
+    }
+}
+
 @media screen and (max-width:550px){
 
     .parrafo-actividades{
