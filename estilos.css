@@ -50,19 +50,6 @@
     color:rgb(151, 151, 151);
 }
 
-/* .submenu{
-    list-style-type: none;
-    position: absolute;
-    display: none;
-}
-
-.submenu-masinfo:hover{
-    display:block;
-    color: red;
-
-} */
-  
-
 .carousel-item{
     width: 100%;
 }
@@ -119,7 +106,7 @@
 }
 
 .card-items{
- text-align: center;
+    text-align: center;
 
 }
 
@@ -349,12 +336,15 @@ text-align: center;
         }
 
 
+
         .img-a{
             background-image:url(./img/img-paisaje2.jpeg);
             background-size: cover;
             margin: 2px;
             grid-area: img-a;
             border-radius: 5px;
+            transition: 1s;
+
         }
 
         .img-b{
