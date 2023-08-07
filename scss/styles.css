@@ -8,6 +8,42 @@
   font-size: 1rem;
 }
 
+.navbar-secundaria {
+  display: none;
+}
+
+.menus {
+  background-color: black;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.menus .menu {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.menus .menu .logo-nav {
+  width: 100px;
+  margin: 1rem;
+}
+.menus .menu .item-navegador {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.menus .menu .item-navegador:hover {
+  color: rgb(151, 151, 151);
+}
+.menus .menu .active {
+  color: rgb(151, 151, 151);
+}
+
 /* ACTIVIDADES */
 .actividades {
   display: flex;
@@ -257,40 +293,32 @@
   height: 80vh;
 }
 
-.navbar-secundaria {
-  display: none;
-}
-
-.menus {
-  background-color: black;
-  list-style-type: none;
+/* FOOTER */
+.footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-color: black;
+  text-decoration: none;
+  list-style-type: none;
   margin: 0;
-  padding: 0;
 }
-.menus .menu {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+.footer .footer-item {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  padding: 3px;
 }
-.menus .menu .logo-nav {
-  width: 100px;
+.footer .logo-footer {
+  width: 90px;
   margin: 1rem;
 }
-.menus .menu .item-navegador {
-  font-family: Arial, Helvetica, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: white;
-}
-.menus .menu .item-navegador:hover {
-  color: rgb(151, 151, 151);
-}
-.menus .menu .active {
-  color: rgb(151, 151, 151);
+
+footer ul li {
+  margin-top: 1rem;
 }
 
 .carousel-item {
@@ -352,65 +380,6 @@
   background-color: rgb(104, 104, 104);
 }
 
-/* FOOTER */
-.footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  background-color: black;
-  text-decoration: none;
-  list-style-type: none;
-  margin: 0;
-}
-.footer .footer-item {
-  text-decoration: none;
-  color: rgb(214, 214, 214);
-  padding: 3px;
-}
-.footer .logo-footer {
-  width: 90px;
-  margin: 1rem;
-}
-
-footer ul li {
-  margin-top: 1rem;
-}
-
-@media screen and (max-width: 900px) {
-  .navegador {
-    display: none;
-  }
-  .navbar-secundaria {
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-  .navbar-secundaria .color-nav {
-    background-color: black;
-  }
-  .navbar-secundaria .color-nav .img-nav {
-    width: 100px;
-  }
-  .navbar-secundaria .titulo-nav-secundario {
-    color: white;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  .footer .footer-icon .footer-item {
-    font-size: 1rem;
-  }
-}
 @media screen and (max-width: 1200px) {
   .card {
     margin: 20px;
@@ -443,6 +412,37 @@ footer ul li {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "img-a img-b" "img-c img-d" "img-e img-f" "img-g img-h" "img-i img-j";
+  }
+}
+@media screen and (max-width: 900px) {
+  .navegador {
+    display: none;
+  }
+  .navbar-secundaria {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-secundaria .color-nav {
+    background-color: black;
+  }
+  .navbar-secundaria .color-nav .img-nav {
+    width: 100px;
+  }
+  .navbar-secundaria .titulo-nav-secundario {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .footer .footer-icon .footer-item {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 700px) {
