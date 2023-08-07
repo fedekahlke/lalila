@@ -446,27 +446,27 @@ footer ul li {
   }
 }
 @media screen and (max-width: 700px) {
-  .imagen-carrousel {
+  .carousel .carousel-inner .carousel-item .image-container .imagen-carrousel {
     height: 400px;
   }
-  .parrafo-index {
+  .index-principal .parrafo-index {
     width: 85vw;
   }
-  .card {
+  .segmentos .card {
     margin: 20px;
     width: 28rem;
   }
 }
 @media screen and (max-width: 550px) {
-  .parrafo-actividades {
+  .actividades .parrafo-actividades {
     margin: 10px;
     width: 85vw;
   }
-  .parrafo-ubicacion {
+  .ubicacion-principal .parrafo-ubicacion {
     margin: 10px;
     width: 80vw;
   }
-  .imagen-ubicacion {
+  .ubicacion-principal .imagen-ubicacion {
     margin-top: 2rem;
     height: 55vh;
   }
@@ -476,32 +476,32 @@ footer ul li {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "img-a" "img-b" "img-c" "img-d" "img-e" "img-f" "img-g" "img-h" "img-i" "img-j";
   }
-  .parrafos-masinfo {
+  .secciones-masinfo .parrafos-masinfo {
     width: auto;
     margin: 1.5rem;
   }
-  .parrafo-masinfo {
-    margin: 1rem;
-  }
-  .titulo-masinfo {
+  .parrafo-y-imagen .titulo-masinfo {
     text-align: center;
   }
-  .titulo-actividades {
+  .parrafo-y-imagen .parrafo-masinfo {
+    margin: 1rem;
+  }
+  .actividades .titulo-actividades {
     text-align: center;
   }
 }
 @media screen and (max-width: 500px) {
-  .imagen-carrousel {
+  .carousel .carousel-inner .carousel-item .image-container .imagen-carrousel {
     height: 50vh;
   }
-  .links-contacto {
+  .body .contacto.principal .general-links-contacto .lista-link .links-contacto {
     margin: 1rem;
   }
-  .links-contacto .iconos-contacto {
+  .body .contacto.principal .general-links-contacto .lista-link .links-contacto .iconos-contacto {
     font-size: 20px;
     margin-right: 5px;
   }
-  .links-contacto .medios-contacto {
+  .body .contacto.principal .general-links-contacto .lista-link .links-contacto .medios-contacto {
     text-decoration: none;
     color: #000000;
   }
