@@ -1,0 +1,27 @@
+/*Ubicacion*/
+
+#mapa{
+    width: 100%;
+}
+
+.ubicacion-principal{
+    @include flex-contenedor;
+    align-items: center; 
+    align-content: center;
+
+    .subtitulo-ubicacion{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 1.8rem;
+    }
+
+    .parrafo-ubicacion{
+        text-align: center;
+        width: 50vw;
+        margin: 50px;
+    }
+
+    .imagen-ubicacion{
+        height: 80vh;
+     }
+}

@@ -1,0 +1,75 @@
+/*CONTACTO*/
+
+
+.body{
+    min-height: 100vh;
+
+    .contacto-principal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+
+        .general-links-contacto{
+            margin: 0 1rem 0 1rem;
+
+            .titulo-contacto{
+                text-align: center;
+                margin: 5vh;
+                font-weight: bold;
+                font-size: 35px;
+            }
+
+            .lista-link{
+                padding: 0;
+
+                .links-contacto{
+                    font-size:1.3rem ;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding: 4vh;
+
+                    .iconos-contacto{
+                        font-size: 27px;
+                        color: $colorIconos;
+                    }
+
+                    .medios-contacto{
+                        text-decoration: none;
+                        color: black;
+                        padding-top: 2vh;
+                    }
+                }
+
+                .borde{
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+
+
+}
+
+.general-form-contacto{
+    margin: 0 1rem 0 1rem;
+
+    .titulo-contacto{
+        text-align: center;
+        margin: 5vh;
+        font-weight: bold;
+        font-size: 35px;
+    }
+        }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+
+    .boton-enviar{
+        margin: 3vh 0 3vh 0;
+        }

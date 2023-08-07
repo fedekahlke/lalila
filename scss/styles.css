@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:ital,wght@1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+/* ACTIVIDADES */
+.actividades {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.actividades .titulo-actividades {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2rem 0 2rem 0;
+  margin: 5vh;
+  font-size: 1.6rem;
+}
+.actividades .parrafo-actividades {
+  text-align: center;
+  width: 50vw;
+  margin: 30px;
+}
+
+/*CONTACTO*/
+.body {
+  min-height: 100vh;
+}
+.body .contacto-principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.body .contacto-principal .general-links-contacto {
+  margin: 0 1rem 0 1rem;
+}
+.body .contacto-principal .general-links-contacto .titulo-contacto {
+  text-align: center;
+  margin: 5vh;
+  font-weight: bold;
+  font-size: 35px;
+}
+.body .contacto-principal .general-links-contacto .lista-link {
+  padding: 0;
+}
+.body .contacto-principal .general-links-contacto .lista-link .links-contacto {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4vh;
+}
+.body .contacto-principal .general-links-contacto .lista-link .links-contacto .iconos-contacto {
+  font-size: 27px;
+  color: #000000;
+}
+.body .contacto-principal .general-links-contacto .lista-link .links-contacto .medios-contacto {
+  text-decoration: none;
+  color: black;
+  padding-top: 2vh;
+}
+.body .contacto-principal .general-links-contacto .lista-link .borde {
+  border-bottom: 1px solid black;
+}
+
+.general-form-contacto {
+  margin: 0 1rem 0 1rem;
+}
+.general-form-contacto .titulo-contacto {
+  text-align: center;
+  margin: 5vh;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.boton-enviar {
+  margin: 3vh 0 3vh 0;
+}
+
+/*MAS INFO*/
+.parrafo-y-imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 8vh;
+}
+.parrafo-y-imagen .parrafo-masinfo {
+  width: 50%;
+  text-align: center;
+  margin-right: 100px;
+}
+.parrafo-y-imagen .img-masinfo {
+  max-width: 50%;
+  max-height: 60vh;
+}
+
+.secciones-masinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.secciones-masinfo .titulo-masinfo {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2rem 0 2rem 0;
+  margin: 5vh;
+  font-size: 1.6rem;
+}
+.secciones-masinfo .parrafos-masinfo {
+  text-align: center;
+  width: 50vw;
+  margin: 20px;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "img-b img-b img-f img-c" "img-b img-b img-d img-e" "img-a img-a img-g img-h" "img-a img-a img-i img-j";
+}
+.grilla .img-a {
+  background-image: url(./img/img-paisaje2.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-a;
+  border-radius: 5px;
+  transition: 1s;
+}
+.grilla .img-b {
+  background-image: url(./img/img-paisaje10.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-b;
+  border-radius: 5px;
+}
+.grilla .img-c {
+  background-image: url(./img/img-animal3.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-c;
+  border-radius: 5px;
+}
+.grilla .img-d {
+  height: 40vh;
+  background-image: url(./img/img-animal1.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-d;
+  border-radius: 5px;
+}
+.grilla .img-e {
+  height: 40vh;
+  background-image: url(./img/img-cabalgata1.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-e;
+  border-radius: 5px;
+}
+.grilla .img-f {
+  background-image: url(./img/img-estancia2.jpg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-f;
+  border-radius: 5px;
+}
+.grilla .img-g {
+  height: 40vh;
+  background-image: url(./img/img-paisaje1.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-g;
+  border-radius: 5px;
+}
+.grilla .img-h {
+  height: 40vh;
+  background-image: url(./img/img-animal2.jpeg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-h;
+  border-radius: 5px;
+}
+.grilla .img-i {
+  height: 40vh;
+  background-image: url(./img/img-index5.jpg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-i;
+  border-radius: 5px;
+}
+.grilla .img-j {
+  height: 40vh;
+  background-image: url(./img/img-cabalgata3.jpg);
+  background-size: cover;
+  margin: 2px;
+  grid-area: img-j;
+  border-radius: 5px;
+}
+
+/*Ubicacion*/
+#mapa {
+  width: 100%;
+}
+
+.ubicacion-principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.ubicacion-principal .subtitulo-ubicacion {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.8rem;
+}
+.ubicacion-principal .parrafo-ubicacion {
+  text-align: center;
+  width: 50vw;
+  margin: 50px;
+}
+.ubicacion-principal .imagen-ubicacion {
+  height: 80vh;
+}
+
+@media screen and (max-width: 900px) {
+  .navegador {
+    display: none;
+  }
+  .navbar-secundaria {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .color-nav {
+    background-color: black;
+  }
+  .titulo-nav-secundario {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .img-nav {
+    width: 100px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .footer .footer-icon .footer-item {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .parrafo-y-imagen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .parrafo-y-imagen .parrafo-masinfo {
+    margin: 1rem 5rem 3rem 5rem;
+    padding: 0;
+    width: auto;
+  }
+  .parrafo-y-imagen .img-masinfo {
+    width: auto;
+  }
+  .parrafos-masinfo {
+    width: auto;
+    margin: 3rem;
+  }
+  .grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img-a img-b" "img-c img-d" "img-e img-f" "img-g img-h" "img-i img-j";
+  }
+}
+@media screen and (max-width: 700px) {
+  .imagen-carrousel {
+    height: 400px;
+  }
+  .parrafo-index {
+    width: 85vw;
+  }
+  .card {
+    margin: 20px;
+    width: 28rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .parrafo-actividades {
+    margin: 10px;
+    width: 85vw;
+  }
+  .parrafo-ubicacion {
+    margin: 10px;
+    width: 80vw;
+  }
+  .imagen-ubicacion {
+    margin-top: 2rem;
+    height: 55vh;
+  }
+  .grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img-a" "img-b" "img-c" "img-d" "img-e" "img-f" "img-g" "img-h" "img-i" "img-j";
+  }
+  .parrafos-masinfo {
+    width: auto;
+    margin: 1.5rem;
+  }
+  .parrafo-masinfo {
+    margin: 1rem;
+  }
+  .titulo-masinfo {
+    text-align: center;
+  }
+  .titulo-actividades {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .imagen-carrousel {
+    height: 50vh;
+  }
+  .links-contacto {
+    margin: 1rem;
+  }
+  .iconos-contacto {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .medios-contacto {
+    text-decoration: none;
+    color: #000000;
+  }
+  .borde {
+    border-bottom: 1px solid black;
+  }
+}
+.navbar-secundaria {
+  display: none;
+}
+
+.menus {
+  background-color: black;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.menus .menu {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.menus .menu .logo-nav {
+  width: 100px;
+  margin: 1rem;
+}
+.menus .menu .item-navegador {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.menus .menu .item-navegador:hover {
+  color: rgb(151, 151, 151);
+}
+.menus .menu .active {
+  color: rgb(151, 151, 151);
+}
+
+.carousel-item {
+  width: 100%;
+}
+.carousel-item .imagen-carrousel {
+  height: 90vh;
+}
+.carousel-item .boton-reservar {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
+
+.index-principal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.index-principal .titulos-index {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2rem 0 2rem 0;
+  margin: 5vh;
+  font-size: 1.6rem;
+}
+.index-principal .parrafo-index {
+  text-align: center;
+  width: 50vw;
+  margin: 20px;
+}
+
+.segmentos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 4vh;
+}
+.segmentos .card-img-top {
+  height: 170px;
+}
+.segmentos .card-items {
+  text-align: center;
+}
+.segmentos .card-items .btn-primary {
+  background-color: rgb(151, 151, 151);
+  border: 0px;
+}
+.segmentos .card-items .btn-primary:hover {
+  background-color: rgb(104, 104, 104);
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-color: black;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+}
+.footer .footer-item {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  padding: 3px;
+}
+.footer .logo-footer {
+  width: 90px;
+  margin: 1rem;
+}
+
+footer ul li {
+  margin-top: 1rem;
+}/*# sourceMappingURL=styles.css.map */
