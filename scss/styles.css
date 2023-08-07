@@ -143,78 +143,88 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "img-b img-b img-f img-c" "img-b img-b img-d img-e" "img-a img-a img-g img-h" "img-a img-a img-i img-j";
 }
-.grilla .img-a {
-  background-image: url(./img/img-paisaje2.jpeg);
+
+.img-a {
+  background-image: url(../../img/img-paisaje2.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-a;
   border-radius: 5px;
   transition: 1s;
 }
-.grilla .img-b {
-  background-image: url(./img/img-paisaje10.jpeg);
+
+.img-b {
+  background-image: url(../../img/img-paisaje10.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-b;
   border-radius: 5px;
 }
-.grilla .img-c {
-  background-image: url(./img/img-animal3.jpeg);
+
+.img-c {
+  background-image: url(../../img/img-animal3.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-c;
   border-radius: 5px;
 }
-.grilla .img-d {
+
+.img-d {
   height: 40vh;
-  background-image: url(./img/img-animal1.jpeg);
+  background-image: url(../../img/img-animal1.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-d;
   border-radius: 5px;
 }
-.grilla .img-e {
+
+.img-e {
   height: 40vh;
-  background-image: url(./img/img-cabalgata1.jpeg);
+  background-image: url(../../img/img-cabalgata1.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-e;
   border-radius: 5px;
 }
-.grilla .img-f {
-  background-image: url(./img/img-estancia2.jpg);
+
+.img-f {
+  background-image: url(../../img/img-estancia2.jpg);
   background-size: cover;
   margin: 2px;
   grid-area: img-f;
   border-radius: 5px;
 }
-.grilla .img-g {
+
+.img-g {
   height: 40vh;
-  background-image: url(./img/img-paisaje1.jpeg);
+  background-image: url(../../img/img-paisaje1.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-g;
   border-radius: 5px;
 }
-.grilla .img-h {
+
+.img-h {
   height: 40vh;
-  background-image: url(./img/img-animal2.jpeg);
+  background-image: url(../../img/img-animal2.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-h;
   border-radius: 5px;
 }
-.grilla .img-i {
+
+.img-i {
   height: 40vh;
-  background-image: url(./img/img-index5.jpg);
+  background-image: url(../../img/img-index5.jpg);
   background-size: cover;
   margin: 2px;
   grid-area: img-i;
   border-radius: 5px;
 }
-.grilla .img-j {
+
+.img-j {
   height: 40vh;
-  background-image: url(./img/img-cabalgata3.jpg);
+  background-image: url(../../img/img-cabalgata3.jpg);
   background-size: cover;
   margin: 2px;
   grid-area: img-j;
