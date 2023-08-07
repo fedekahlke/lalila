@@ -7,21 +7,20 @@
         display:block;
         margin: 0;
         padding: 0;
-    }
 
-    .color-nav{
-        background-color: black;
-    }
+        .color-nav{
+            background-color: black;
 
-    .titulo-nav-secundario{
-        color: white;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+            .img-nav{
+                width: 100px;
+            }
+        }    
 
-    .img-nav{
-        width: 100px;
+        .titulo-nav-secundario{
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
     }
-
 
     .footer{
         display: flex;
@@ -135,7 +134,7 @@
         "img-h"
         "img-i"
         "img-j"
-}
+    }
 
         .parrafos-masinfo{
             width: auto;
@@ -162,16 +161,17 @@
 
     .links-contacto {
         margin: 1rem;
-    }
 
-    .iconos-contacto {
-        font-size: 20px;
-        margin-right: 5px;
-    }
+        .iconos-contacto {
+            font-size: 20px;
+            margin-right: 5px;
+        }
 
-    .medios-contacto {
-        text-decoration: none;
-        color: #000000;
+        .medios-contacto {
+            text-decoration: none;
+            color: #000000;
+        }
+    
     }
 
     .borde{
