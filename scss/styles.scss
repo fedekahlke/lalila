@@ -1,74 +1,195 @@
 @import "./partials/variables-y-reset";
 @import "./partials/nav";
+@import "./partials/pagina-principal";
 @import "./partials/actividades";
 @import "./partials/contacto";
 @import "./partials/mas-info";
 @import "./partials/ubicacion";
 @import "./partials/footer";
 
-.carousel-item {
-    width: 100%;
 
-    .imagen-carrousel {
-        height: 90vh;
-    }
-
-    .boton-reservar {
-        position: absolute;
-        left: 50%;
-        bottom: 10%;
-        transform: translateX(-50%);
-    }
-}
-
-.index-principal {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-
-    .titulos-index {
-        text-align: center;
-        width: 50%;
-        @include flex-contenedor;
-        align-items: center;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        padding: 2rem 0 2rem 0;
-        margin: 5vh;
-        font-size: 1.6rem;
-    }
-
-    .parrafo-index {
-        text-align: center;
-        width: 50vw;
+@media screen and (max-width:1200px){
+   
+    .card{
         margin: 20px;
     }
 }
 
-.segmentos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 4vh;
+@media screen and (max-width:950px){
+    .parrafo-y-imagen{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
 
-    .card-img-top {
-        height: 170px;
+        .parrafo-masinfo{
+            margin: 1rem 5rem 3rem 5rem;
+            padding: 0;
+            width: auto;
+        }
+
+        .img-masinfo{
+            width: auto;
+        }    
     }
 
-    .card-items {
-        text-align: center;
+    .secciones-masinfo{
 
-        .btn-primary {
-            background-color: rgb(151, 151, 151);
-            border: 0px;
-
-            &:hover {
-                background-color: rgb(104, 104, 104);
-            }
+        .parrafos-masinfo{
+            width: auto;
+            margin: 3rem;
         }
+    }
+
+
+    .grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+    "img-a img-b"
+    "img-c img-d"
+    "img-e img-f"
+    "img-g img-h"
+    "img-i img-j"
+}
+
+}
+
+@media screen and (max-width:900px){
+    .navegador{
+        display: none;
+    }
+
+    .navbar-secundaria{
+        display:block;
+        margin: 0;
+        padding: 0;
+
+        .color-nav{
+            background-color: black;
+
+            .img-nav{
+                width: 100px;
+            }
+        }    
+
+        .titulo-nav-secundario{
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer .footer-icon .footer-item{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+
+    .imagen-carrousel{
+        height: 400px;
+    }
+    
+    .parrafo-index{
+        width: 85vw;
+    }
+
+    .card{
+        margin: 20px;
+        width: 28rem;
     }
 }
 
-@import "./partials/mediaquery";
+@media screen and (max-width:550px){
+
+    .parrafo-actividades{
+        margin: 10px;
+        width: 85vw;   
+    }
+
+    .parrafo-ubicacion{
+        margin: 10px;
+        width: 80vw;
+    }
+
+    .imagen-ubicacion{
+        margin-top: 2rem;
+        height: 55vh;
+    }
+
+    .grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+        grid-template-areas:
+        "img-a"
+        "img-b"
+        "img-c"
+        "img-d"
+        "img-e"
+        "img-f"
+        "img-g"
+        "img-h"
+        "img-i"
+        "img-j"
+    }
+
+        .parrafos-masinfo{
+            width: auto;
+            margin: 1.5rem;
+        }
+
+        .parrafo-masinfo{
+            margin: 1rem;
+        }
+
+        .titulo-masinfo{
+            text-align: center;
+        }
+
+        .titulo-actividades{
+            text-align: center;
+        }
+}
+
+@media screen and (max-width:500px){
+    .imagen-carrousel{
+        height: 50vh;
+    }
+
+    .links-contacto {
+        margin: 1rem;
+
+        .iconos-contacto {
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        .medios-contacto {
+            text-decoration: none;
+            color: #000000;
+        }
+    
+    }
+
+    .borde{
+        border-bottom: 1px solid black;
+
+    }
+}
