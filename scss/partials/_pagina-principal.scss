@@ -10,6 +10,8 @@
         left: 50%;
         bottom: 10%;
         transform: translateX(-50%);
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
     }
 }
 
@@ -47,6 +49,8 @@
 
     .card-img-top {
         height: 170px;
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
     }
 
     .card-items {
@@ -55,6 +59,8 @@
         .btn-primary {
             background-color: rgb(151, 151, 151);
             border: 0px;
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
 
             &:hover {
                 background-color: rgb(104, 104, 104);

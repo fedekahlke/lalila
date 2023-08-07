@@ -55,6 +55,7 @@
   left: 50%;
   bottom: 10%;
   transform: translateX(-50%);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .index-principal {
@@ -91,6 +92,7 @@
 }
 .segmentos .card-img-top {
   height: 170px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 .segmentos .card-items {
   text-align: center;
@@ -98,6 +100,7 @@
 .segmentos .card-items .btn-primary {
   background-color: rgb(151, 151, 151);
   border: 0px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 .segmentos .card-items .btn-primary:hover {
   background-color: rgb(104, 104, 104);
@@ -190,6 +193,9 @@
 .boton-enviar {
   margin: 3vh 0 3vh 0;
 }
+.boton-enviar:hover {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
 
 /*MAS INFO*/
 .parrafo-y-imagen {
@@ -246,6 +252,7 @@
   grid-area: img-a;
   border-radius: 5px;
   transition: 1s;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-b {
@@ -254,6 +261,7 @@
   margin: 2px;
   grid-area: img-b;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-c {
@@ -262,6 +270,7 @@
   margin: 2px;
   grid-area: img-c;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-d {
@@ -271,6 +280,7 @@
   margin: 2px;
   grid-area: img-d;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-e {
@@ -280,6 +290,7 @@
   margin: 2px;
   grid-area: img-e;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-f {
@@ -288,15 +299,17 @@
   margin: 2px;
   grid-area: img-f;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-g {
   height: 40vh;
-  background-image: url(../../img/img-paisaje1.jpeg);
+  background-image: url(../img/img-paisaje1.jpeg);
   background-size: cover;
   margin: 2px;
   grid-area: img-g;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-h {
@@ -306,6 +319,7 @@
   margin: 2px;
   grid-area: img-h;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-i {
@@ -315,6 +329,7 @@
   margin: 2px;
   grid-area: img-i;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .img-j {
@@ -324,6 +339,7 @@
   margin: 2px;
   grid-area: img-j;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 /*Ubicacion*/
