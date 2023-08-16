@@ -203,10 +203,11 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 8vh;
+  align-items: center;
 }
 .parrafo-y-imagen .parrafo-masinfo {
   width: 50%;
-  text-align: center;
+  text-align: left;
   margin-right: 100px;
 }
 .parrafo-y-imagen .img-masinfo {
@@ -242,7 +243,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "img-b img-b img-f img-c" "img-b img-b img-d img-e" "img-a img-a img-g img-h" "img-a img-a img-i img-j";
+  grid-template-areas: "img-b img-b img-f img-c" "img-b img-b img-d img-e" "img-g img-h img-a img-a" "img-i img-j img-a img-a";
 }
 
 .img-a {
