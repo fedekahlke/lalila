@@ -132,9 +132,6 @@
 }
 
 /*CONTACTO*/
-.body {
-  min-height: 100vh;
-}
 .body .contacto-principal {
   display: flex;
   flex-direction: row;
@@ -207,7 +204,7 @@
 }
 .parrafo-y-imagen .parrafo-masinfo {
   width: 50%;
-  text-align: left;
+  text-align: center;
   margin-right: 100px;
 }
 .parrafo-y-imagen .img-masinfo {
