@@ -1,0 +1,1 @@
+La aplicacion de los conceptos de js se encuentran en la seccion de "CONTACTO" ubicada en el nav.
