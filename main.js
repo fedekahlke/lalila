@@ -72,7 +72,7 @@ while (continuar) {
     } else {
         console.log ("Escribe ADMINISTRADOR si queres ver el historial de opiniones")
 
-        ingreso = prompt ("Si desea hacer una consulta escriba SERVICIO. Si desea escribir dejar una resenia de su experiencia con nosotros, escriba OPINION. Para salir escriba SALIR")
+        ingreso = prompt ("Si desea hacer una consulta escriba SERVICIO. Si desea escribir dejar una reseña de su experiencia con nosotros, escriba OPINION. Para salir escriba SALIR")
    
     if (ingreso.toUpperCase() === "SERVICIO") {
         do {
